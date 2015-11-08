@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.3'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -45,3 +46,18 @@ group :development do
   gem 'spring'
 end
 
+
+
+gem 'habtm_generator', :group => :development, :git => 'https://github.com/krishnakumar03/ruby-habtm-generator.git'
+
+gem 'api_taster', :git => 'https://github.com/krishnakumar03/api_taster.git'
+
+gem 'paperclip'
+
+gem 'paranoia', '~> 2.0'
+
+gem 'puma'
+
+gem 'activeadmin', github: 'activeadmin'
+
+gem 'rails_12factor', group: :production

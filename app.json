@@ -1,0 +1,3 @@
+
+
+{"name":"devise_api","repository":"git@github.com:jogiranjith/devise_api","buildpacks":[{"url":"https://github.com/heroku/heroku-buildpack-ruby"},{"url":"https://github.com/ddollar/heroku-buildpack-multi"}],"addone":["heroku-postgresql:hobby-dev"],"env":{"DEPLOY_TASKS":{"description":"Custom rake commands to be run after deploy","value":"db:migrate"}}}
