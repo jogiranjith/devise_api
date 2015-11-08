@@ -61,3 +61,8 @@ gem 'puma'
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'rails_12factor', group: :production
+
+
+gem 'devise'
+
+gem 'simple_token_authentication', '~> 1.0'

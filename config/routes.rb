@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 	# Engines
+  mount ApiTaster::Engine => "/api_taster"
 
 	# Resources Start Here
 
